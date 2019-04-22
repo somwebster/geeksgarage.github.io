@@ -1,187 +1,457 @@
-<!doctype html>
-<html>
-    <head>
-        <title>Geeks Garage</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Favicons -->
-        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
-        <link rel="manifest" href="/icons/site.webmanifest">
-        <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="/icons/favicon.ico">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="/icons/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
-        
-        <script type="text/javascript">
+<html class="gr__geeksgarages_com"><head>
+<title>Geeks Garage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+<link rel="manifest" href="/icons/site.webmanifest">
+<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/icons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript">
             $(document).ready(function(){
                 $('.menu').click(function(){
                     $('ul').toggleClass('active');
                 })
             })
         </script>
-        
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/main.css" type="text/css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    
-    </head>
-    <body>
-        
-        <!-- Navbar -->
-        <nav>
-            <div class="toggle">
-                <i class="fa fa-bars menu" aria-hidden="true"></i>
-            </div>
-            <ul class="text-center">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="#">FNPLUS</a></li>
-                <li><a href="#">OUR JOURNEY</a></li>
-                <li><a href="#">CAFE</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
-        <!-- /Navbar -->
-        
-        <!-- Text -->
-        <div class="container">
-            <div class="heading text-center">
-                <h1><b>Explore The Fun At Geek's Community</b></h1>
-                <p>Want to do self-study? Explore new Technologies...</p>
-            </div>
-        </div>
-        <!-- /Text -->
-        
-        <!-- Headings -->
-        <div class="container-fluid">
-            <div class="home_headers">
-                <div class="row">
-                    <div class="col-md-6 line1">
-                        <div class="row">
-                            <div class="col-sm-6 header">
-                                <a href="#">
-                                    <div class="box box1 text-center">
-                                        <i class="fa fa-wrench" aria-hidden="true"></i>
-                                        <p>Working Garage</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-sm-6 header">
-                                <a href="resources.html">
-                                    <div class="box box2 text-center">
-                                        <i class="fa fa-code" aria-hidden="true"></i>
-                                        <p>Coding Resources</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6 line2">
-                        <div class="row">
-                            <div class="col-sm-6 header">
-                                <a href="#">
-                                    <div class="box box3 text-center">
-                                        <i class="fa fa-coffee" aria-hidden="true"></i>
-                                        <p>Cafeteria & Snacks</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-sm-6 header">
-                                <a href="#">
-                                    <div class="box box4 text-center">
-                                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                                        <p>Community Events</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 line1">
-                        <div class="row">
-                            <div class="col-sm-6 header">
-                                <a href="#">
-                                    <div class="box box5 text-center">
-                                        <i class="fa fa-meetup" aria-hidden="true"></i>
-                                        <p>Dev Meetups</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-sm-6 header">
-                                <a href="#">
-                                    <div class="box box6 text-center">
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <p>Competitions</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6 line2">
-                        <div class="row">
-                            <div class="col-sm-6 header">
-                                <a href="#">
-                                    <div class="box box7 text-center">
-                                        <i class="fa fa-file" aria-hidden="true"></i>
-                                        <p>Working Projects</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-sm-6 header">
-                                <a href="#">
-                                    <div class="box box8 text-center">
-                                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                                        <p>Geeks Profile</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /Headings -->
-        
-        <!-- Footer -->
-        <div class="container-fluid" style="padding: 0px;">
-            <div class="foot">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4 text-center">
-                            <h2>Office</h2>
-                            <p>A-6, Industrial Estate, Mogappair West, Chennai, Tamil Nadu 600037</p>
-                        </div>
-                        <div class="col-sm-4 text-center">
-                            <h2>Get In Touch</h2>
-                            <p>Support@fnplus.tech</p>
-                        </div>
-                        <div class="col-sm-4 text-center">
-                            <h2>Social</h2>
-                            <p>
-                                <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <br><br><br>
-                <hr>
-                <div class="credit text-center">
-                    <p>Copyright © 2018 All rights reserved | Made with<i class="fa fa-heart" aria-hidden="true"></i>by Pratik Agarwal</p>
-                </div>
-            </div>
-        </div>
-        
-        <!-- /Footer -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="js/main.js" type="text/javascript"></script>
-    </body>
-</html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/main.css" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><style>
+    /* Base Styles */
+
+.container2 {
+  margin-top: 28px;
+  max-height: 560px;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* SVG Styles */
+#robot {
+  animation: fly-in 3s ease-out;
+  max-height: 560px;
+  width: 100%;
+}
+
+.arm,
+.leg {
+  animation: dangle 3s cubic-bezier(0.57, 0.19, 0.25, 0.75) infinite;
+  transform-origin: 50% 0%;
+}
+
+.head {
+  animation: attach-head 3s linear;
+}
+
+.flame {
+  animation: flicker 0.35s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+.lean {
+  animation: lean 3s linear;
+  transform-origin: 50% 0%;
+}
+
+.levitate {
+  animation: levitate 3s cubic-bezier(0.57, 0.19, 0.25, 0.75) infinite;
+  transform-origin: 50% 50%;
+}
+
+.smoke {
+  animation: smoke 0.25s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+.smoke-group {
+  animation: track-levitate 3s cubic-bezier(0.57, 0.19, 0.25, 0.75) infinite;
+  animation-delay: 0.25s;
+}
+
+.delay-2 {
+  animation-delay: 0.06s;
+}
+
+.delay-3 {
+  animation-delay: 0.09s;
+}
+
+.delay-4 {
+  animation-delay: 0.12s;
+}
+
+.delay-5 {
+  animation-delay: 0.15s;
+}
+
+.delay-6 {
+  animation-delay: 0.18s;
+}
+
+.delay-7 {
+  animation-delay: 0.21s;
+}
+
+.delay-8 {
+  animation-delay: 0.24s;
+}
+
+.delay-9 {
+  animation-delay: 0.27s;
+}
+
+.delay-10 {
+  animation-delay: 0.3s;
+}
+
+/* 
+  Flicker courtesy of:
+  https://codepen.io/ghen/pen/pvwOwM
+*/
+@keyframes flicker {
+  0% {
+    transform: rotate(-1deg);
+  }
+  25% {
+    transform: rotate(1deg) scaleY(1.15);
+  }
+  50%, 100% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-2deg) scaleY(0.95);
+  }
+}
+@keyframes smoke {
+  from {
+    transform: scale(0.95);
+  }
+  to {
+    transform: scale(1.15);
+  }
+}
+/*
+  Rotating hover courtesy of:
+  http://lea.verou.me/2012/02/moving-an-element-along-a-circle/ 
+*/
+@keyframes levitate {
+  from {
+    transform: rotate(0deg) translate(-15px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translate(-15px) rotate(-360deg);
+  }
+}
+@keyframes track-levitate {
+  0%, 100% {
+    transform: translateX(-20px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+}
+@keyframes dangle {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(10deg);
+  }
+  66% {
+    transform: rotate(-10deg);
+  }
+}
+@keyframes lean {
+  0%, 100% {
+    transform: rotate(0deg) translateX(0px);
+  }
+  20% {
+    transform: rotate(-30deg) translateX(-130px);
+  }
+  80% {
+    transform: rotate(-30deg) translateX(-130px);
+  }
+}
+@keyframes attach-head {
+  0%, 100% {
+    transform: translate(0px 0px);
+  }
+  20% {
+    transform: translate(-130px, 60px);
+  }
+  80% {
+    transform: translate(-130px, 60px);
+  }
+}
+@keyframes fly-in {
+  0% {
+    transform: translateX(2000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+</style>
+</head>
+<body data-gr-c-s-loaded="true">
+
+<nav style="
+    background: #029843;
+">
+<div class="toggle" style="
+    background: #029843;
+">
+<i class="fa fa-bars menu" aria-hidden="true"></i>
+</div>
+<ul class="text-center">
+<li><a href="index.html">HOME</a></li>
+<li><a href="#">FNPLUS</a></li>
+<li><a href="#">OUR JOURNEY</a></li>
+<li><a href="#">CAFE</a></li>
+<li><a href="#">ABOUT</a></li>
+<li><a href="#">CONTACT</a></li>
+</ul>
+</nav>
+
+<div class="credit">
+  
+</div>
+
+
+<div class="container">
+<div class="heading text-center">
+<h1><b>Welcome to Geeks Garage</b></h1>
+<p>Dive into the world of Fnplus Geeks</p>
+</div>
+</div>
+
+
+<div class="container-fluid">
+<div class="home_headers">
+<div class="row">
+
+<div class="col-md-6 line1">
+
+    <div class="row">
+<div class="col-sm-6 header">
+<a href="#">
+<div class="box box1 text-center" style="
+    background: black;
+">
+<i class="fa fa-map-o" aria-hidden="true"></i>
+<p>Explore Hubs </p>
+</div>
+</a>
+</div>
+<div class="col-sm-6 header">
+<a href="resources.html">
+<div class="box box2 text-center" style="
+    background: black;
+">
+<i class="fa fa-code" aria-hidden="true"></i>
+<p>Coding Resources</p>
+</div>
+</a>
+</div>
+</div><div class="row">
+<div class="col-sm-6 header">
+<a href="#">
+<div class="box box1 text-center" style="
+    background: black;
+">
+<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+<p>Geeks</p>
+</div>
+</a>
+</div>
+<div class="col-sm-6 header">
+<a href="resources.html">
+<div class="box box2 text-center" style="
+    background: black;
+">
+<i class="fa fa-meetup" aria-hidden="true"></i>
+<p>Jams</p>
+</div>
+</a>
+</div>
+</div>
+</div><div class="col-md-6 ">
+    <div class="row">
+
+    <div class="container2">
+  <svg id="robot" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 960 570">
+
+    <g class="head">
+      <g class="levitate">
+        <!-- Top of Head -->
+        <path fill="#06C194" d="M480.5,9.545C436.011,9.545,400,45.61,400,90.1V166h161V90.1C561,45.61,524.989,9.545,480.5,9.545z" style="
+    fill: #029843;
+"></path>
+        <path fill="#16FFC6" d="M480,10h9.04c-2.807-0.296-5.654-0.455-8.54-0.455C436.011,9.545,400,45.61,400,90.1V166h80V10z" style="
+    fill: #c6efb8;
+"></path>
+      </g>
+    </g>
+
+    <!-- Background Smoke -->
+    <g class="smoke-group">
+      <circle class="smoke delay-2" fill="#FAC784" cx="441" cy="484.667" r="22.167"></circle>
+      <circle class="smoke delay-3" fill="#FFD97F" cx="455" cy="510" r="42.5"></circle>
+      <circle class="smoke delay-4" fill="#FAC784" cx="508.258" cy="486.763" r="25.263"></circle>
+    </g>
+
+    <g class="lean">
+      <g class="levitate">
+        <!-- Jet Stream -->
+        <rect x="455" y="348" fill="#FFFBB5" width="54" height="163"></rect>
+        <polygon class="flame" fill="#FFD97F" points="469.333,328 493.667,328 481.63,460.667 "></polygon>
+
+        <!-- Jet Pack -->
+        <g>
+          <rect x="442" y="276" fill="#CCCCCC" width="39" height="65"></rect>
+          <circle fill="#CCCCCC" cx="461.001" cy="277.087" r="19.427"></circle>
+          <rect x="481" y="276" fill="#CCCCCC" width="38" height="65"></rect>
+          <circle fill="#CCCCCC" cx="500.307" cy="277.087" r="19.427"></circle>
+          <polygon fill="#CCCCCC" points="508.885,348 454.731,348 468.616,335 494.998,335 	"></polygon>
+        </g>
+
+        <!-- Arms -->
+        <path class="arm" fill="none" stroke="#06C194" stroke-width="5" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" d="
+          M434.833,320.333c0,0,0.143-8.807-0.911-32.76"></path>
+        <path class="arm delay-4" fill="none" stroke="#06C194" stroke-width="5" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" d="
+          M527.28,287.573c-1.054,23.953-0.911,32.76-0.911,32.76"></path>
+
+        <!-- Shoulders -->
+        <circle fill="#16FFC6" cx="515.25" cy="279" r="17.75" style="
+    fill: #c6efb8;
+"></circle>
+        <circle fill="#16FFC6" cx="447.25" cy="279" r="17.75" style="
+    fill: #c6efb8;
+"></circle>
+
+        <!-- Body -->
+        <rect x="447" y="241" fill="#06C194" width="67" height="65" style="
+    fill: #029843;
+"></rect>
+
+        <!-- Right Leg -->
+        <g class="leg">
+          <path fill="none" stroke="#06C194" stroke-width="5" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" d="
+          M463.833,359.333c0,0,0.143-8.807-0.911-32.76" style="
+    fill: #c6efb8;
+"></path>
+
+          <!-- Foot -->
+          <path fill="#16FFC6" d="M479.311,361.396c-8.956-6.462-21.476-4.682-28.235,4.143c-6.759,8.823-5.219,21.372,3.351,28.339
+              L479.311,361.396z" style="
+    fill: #c6efb8;
+"></path>
+        </g>
+
+        <!-- Left Leg -->
+        <g class="leg delay-6">
+          <path fill="none" stroke="#06C194" stroke-width="5" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" d="
+          M499.28,326.573c-1.054,23.953-0.911,32.76-0.911,32.76" style="
+    fill: #c6efb8;
+"></path>
+
+          <!-- Foot -->    
+          <path fill="#16FFC6" d="M510.386,393.843c8.519-7.028,9.965-19.592,3.139-28.363c-6.827-8.773-19.359-10.458-28.266-3.93
+            L510.386,393.843z" style="
+    fill: #c6efb8;
+"></path>
+        </g>  
+
+        <!-- Body -->
+        <circle fill="#06C194" cx="480.5" cy="305.5" r="33.5" style="
+    fill: #029843;
+"></circle>
+      </g>
+    </g>
+
+    <!-- Smoke -->
+    <g class="smoke-group">
+      <circle class="smoke delay-8" fill="#FFD97F" cx="419" cy="517.193" r="22.193"></circle>
+      <circle class="smoke delay-6" fill="#FAC784" cx="555" cy="517.193" r="22.193"></circle>
+      <circle class="smoke delay-7" fill="#FFD97F" cx="527.28" cy="505.667" r="33.72"></circle>
+      <circle class="smoke delay-5" fill="#FFD97F" cx="485.251" cy="514.063" r="36.877"></circle>
+    </g>
+
+    <g class="head">
+      <g class="levitate">
+        <!-- Lower Jaw -->
+        <g>
+          <path fill="#16FFC6" d="M370.065,176c-0.001,0-0.004-0.065-0.004,0.028c0,48.908,44.819,88.43,100.106,88.43
+            c55.286,0,100.105-39.46,100.105-88.368c0-0.093-0.004-0.09-0.004-0.09H370.065z" style="
+    fill: #c6efb8;
+"></path>
+        </g>
+
+        <!-- Eyes -->
+        <circle fill="#FFFFFF" stroke="#06C194" stroke-width="5" stroke-miterlimit="10" cx="480.235" cy="141.86" r="14.015"></circle>
+        <circle fill="#FFFFFF" stroke="#06C194" stroke-width="5" stroke-miterlimit="10" cx="444.377" cy="141.86" r="14.015"></circle>
+      </g>
+    </g>
+  </svg>
+</div><!-- /.container -->
+
+</div>
+</div>
+
+
+
+</div>
+
+</div>
+</div>
+
+
+<div class="container-fluid" style="padding: 0px;">
+<div class="foot" style="
+    background: #029843;
+">
+<div class="container">
+<div class="row">
+<div class="col-sm-4 text-center">
+<h2 style="
+    color: white;
+">Office</h2>
+<p>A-6, Industrial Estate, Mogappair West, Chennai, Tamil Nadu 600037</p>
+</div>
+<div class="col-sm-4 text-center">
+<h2 style="
+    color: white;
+">Get In Touch</h2>
+<p>Support@fnplus.tech</p>
+</div>
+<div class="col-sm-4 text-center">
+<h2 style="
+    color: white;
+">Social</h2>
+<p>
+<a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+</p>
+</div>
+</div>
+</div>
+<br><br><br>
+<hr>
+<div class="credit text-center">
+
+</div>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/main.js" type="text/javascript"></script>
+
+</body><div><div class="gr_-editor gr-iframe-first-load" style="display: none;"><div class="gr_-editor_back"></div><iframe class="gr_-ifr gr-_dialog-content"></iframe></div></div><grammarly-card><div></div></grammarly-card><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
